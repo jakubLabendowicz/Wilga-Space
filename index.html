@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wilga space | New card</title>
+    <link rel="icon" href="graphics/icon.png">
+    <link rel="stylesheet" href="allDesign/css/panelStyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bubblesStyle.css">
+    <link rel="stylesheet" href="css/boardStyle.css">
+
+    <script src="https://labendowicz.pl/Wilga/js/Wilga.js"></script>
+  </head>
+  <body>
+    <!-- <div class="bubblesBackground" style="z-index: -5"> -->
+      <div class="dotgroup1 dot1"></div>
+      <div class="dotgroup1 dot2"></div>
+      <div class="dotgroup1 dot3"></div>
+      <div class="dotgroup1 dot4"></div>
+      <div class="dotgroup1 dot5"></div>
+      <div class="dotgroup2 dot1"></div>
+      <div class="dotgroup2 dot2"></div>
+      <div class="dotgroup2 dot3"></div>
+      <div class="dotgroup2 dot4"></div>
+      <div class="dotgroup2 dot5"></div>
+      <div class="dotgroup3 dot1"></div>
+      <div class="dotgroup3 dot2"></div>
+      <div class="dotgroup3 dot3"></div>
+      <div class="dotgroup3 dot4"></div>
+      <div class="dotgroup3 dot5"></div>
+    <!-- </div> -->
+
+    <main class="board">
+      <!-- <header class="boardHeader">
+
+      </header> -->
+      <div class="boardMain">
+        <section class="tab">
+          <header class="tabHeader">
+            <div class="tabTitle" id="clock"></div>
+            <div class="tabSubtitle" id="date"></div>
+          </header>
+          <div class="tabMain">
+            <!-- component weather -->
+            <div class="component">
+              <div class="componentHeader">
+                <div class="componentIcon"></div>
+                <div class="componentTitles">
+                  <div class="componentTitle">2° - Rain</div>
+                  <div class="componentSubtitle">Garwolin</div>
+                </div>
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">Tomorow</div>
+                    <div class="elementSubtitle">6° - Rain</div>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">16.04</div>
+                    <div class="elementSubtitle">9° - Sunny</div>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+              </div>
+              <!-- <div class="componentFooter">
+
+              </div> -->
+            </div>
+            <!-- component searcher -->
+            <div class="component">
+              <div class="componentHeader">
+
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle"></div>
+                  </div>
+                  <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div>
+                </div>
+              </div>
+              <div class="componentFooter">
+
+              </div>
+            </div>
+            <!-- component bookmarks -->
+            <div class="component">
+              <div class="componentHeader">
+
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle"></div>
+                  </div>
+                  <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div>
+                </div>
+              </div>
+              <div class="componentFooter">
+
+              </div>
+            </div>
+            <!-- component news -->
+            <div class="component">
+              <div class="componentHeader">
+
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle"></div>
+                  </div>
+                  <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div>
+                </div>
+              </div>
+              <div class="componentFooter">
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="tab">
+          <header class="tabHeader">
+            <div class="tabSubtitle">Settings</div>
+          </header>
+          <div class="tabMain">
+            <!-- component Theme -->
+            <div class="component">
+              <div class="componentHeader">
+                <div class="componentIcon"></div>
+                <div class="componentTitles">
+                  <div class="componentTitle">Theme</div>
+                </div>
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">Session theme</div>
+                    <button class="elementSubtitle" id="themebutton">Dark</button>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">Default theme</div>
+                    <button class="elementSubtitle" id="defaultThemeSetter2">Dark</button>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+              </div>
+              <!-- <div class="componentFooter">
+
+              </div> -->
+            </div>
+            <!-- component Theme -->
+            <div class="component">
+              <div class="componentHeader">
+                <div class="componentIcon"></div>
+                <div class="componentTitles">
+                  <div class="componentTitle">Bubbles</div>
+                </div>
+              </div>
+              <div class="componentMain">
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">Top color</div>
+                    <select class="elementSubtitle" id="bubbleTopColor">
+                      <option value="mix">Mix</option>
+                      <option value="#4F7FD1">Blue</option>
+                      <option value="#4FD153">Green</option>
+                      <option value="#CDD14F">Yellow</option>
+                      <option value="#D14F4F">Red</option>
+                      <option value="white">White</option>
+                      <option value="black">Black</option>
+                      <option value="#00000000">Transparent</option>
+                    </select>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+                <div class="element">
+                  <div class="elementHeader">
+                    <div class="elementTitle">Bottom color</div>
+                    <select class="elementSubtitle" id="bubbleBootomColor">
+                      <option value="mix">Mix</option>
+                      <option value="#4F7FD1">Blue</option>
+                      <option value="#4FD153">Green</option>
+                      <option value="#CDD14F">Yellow</option>
+                      <option value="#D14F4F">Red</option>
+                      <option value="white">White</option>
+                      <option value="black">Black</option>
+                      <option value="#00000000">Transparent</option>
+                    </select>
+                  </div>
+                  <!-- <div class="elementMain">
+                  </div>
+                  <div class="elementFooter">
+                  </div> -->
+                </div>
+              </div>
+              <div class="componentFooter">
+                <button type="button" name="button" id="bubbleThemeSetter">Change</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <button class="panelButton" onclick="openPanel()"></button>
+
+
+
+    <!-- javascript -->
+    <script type="text/javascript" src="js/clock.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/setHistory.js"></script>
+    <script type="text/javascript" src="projects/allSchool/js/openSites.js"></script>
+    <script src="js/config/Theme.js"></script>
+    <script src="allDesign/js/Card.js"></script>
+    <script src="allDesign/js/Panel.js"></script>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+@import url("https://use.typekit.net/cnj7jwd.css");
+
+/* configuration */
+a {
+  text-decoration: none;
+}
+
+/* variables */
+:root {
+  /* height, width */
+  --width: calc(100vw - 1000px);
+
+  /* background-color, color */
+  --firstBackgroundColor: white;
+  --firstColor: #212121;
+
+  --secondBackgroundColor: #09171C;
+  --secondColor: #ffffff;
+
+  --thirdBackgroundColor: url(../grafics/tlo.jpg);
+  --thirdColor: white;
+
+  --shadowColor: #DDDDDD;
+
+  /* font-size */
+  --firstFontSize: 15px;
+  --secondFontSize: 125px;
+  --thirdFontSize: 50px;
+}
+
+/* elements */
+.board{
+  width: calc(100vw - 1000px);
+  margin: 0px 420px;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 50px;
+
+  padding: 50px;
+}
+.boardHeader {}
+.boardMain {
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 50px;
+
+  padding: 50px;
+}
+.tabHeader {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 0px;
+}
+.tabTitle {
+  font-size: 100px;
+  text-align: center;
+}
+.tabSubtitle {
+  font-size: 30px;
+  text-align: center;
+}
+.tabMain {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 50px;
+}
+
+.component {
+  background-color: #607d8b1c;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 20px;
+
+  padding: 20px;
+}
+.componentHeader {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+}
+.componentIcon {
+  background-color: #ffffffdd;
+  width: 100px;
+  height: 100px;
+}
+.componentTitles {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 10px;
+}
+.componentTitle {
+  font-size: 40px;
+}
+.componentSubtitle {
+  font-size: 20px;
+}
+.componentMain {}
+.componentFooter {}
+
+.element {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 5px;
+
+  padding: 5px;
+}
+.elementHeader {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 0px;
+}
+.elementTitle {
+  font-size: 25px;
+}
+.elementSubtitle {
+  font-size: 15px;
+}
+.elementMain {}
+.elementFooter {}
+
+
+.btn {
+  background-color: var(--secondBackgroundColor);
+  color: var(--secondColor);
+}
+
+@media screen and (max-width: 1300px) {
+  :root {
+    --mainHeight: auto;
+    --firstFontSize: 1.5vh;
+    --secondFontSize: 6vh;
+    --thirdFontSize: 4.7vh;
+  }
+
+  header {
+    align-items: center;
+    justify-content: center;
+    padding: 25px 80px 25px 80px;
+  }
+
+  .panel {
+    position: static;
+    width: var(--width);
+    height: auto;
+    margin: 0px 100px;
+  }
+
+  .title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding: 25px 80px 25px 80px;
+  }
+
+  .nav {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px 250px;
+    width: calc(var(--width) - 300px);
+  }
+
+  .title {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+
+    transform: translate(-50%, 50%);
+  }
+}

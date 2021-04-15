@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  margin: 0px;
+  background-color: var(--bodyBackgroundColor);
+  font-family: 'Poppins', sans-serif;
+  color: var(--bodyColor);
+}
+
+.panel .p-bar {
+  background-color: var(--barBackgroundColor);
+}
+
+/* .panel {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+  padding: 50px 50px 0px 150px;
+  background-color: var(--panelBackgroundColor);
+  color: var(--panelColor);
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 12px 12px 96px rgba(0, 0, 0, 0.16);
+}
+
+#panel {
+  visibility: hidden;
+}
+
+.paneltitle {
+  font-size: 40px;
+  color: var(--panelColor);
+}
+
+.panelWidget {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  box-shadow: 1px 1px 96px;
+  border-radius: 30px;
+}
+
+.panelWidgetTitle {
+  font-size: 25px;
+  color: var(--panelColor);
+}
+
+.panelElement {
+  padding: 5px 0px;
+}
+
+.panelElementTitle {
+  font-size: 15px;
+  background-color: #00000000;
+  padding: 0px;
+  color: var(--panelColor);
+  background: none;
+  border: none;
+}
+
+.panelElementTitle option {
+  background-color: var(--panelBackgroundColor);
+  color: var(--panelColor);
+}
+
+.bar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: #7D8FE9;
+  box-shadow: 12px 12px 96px rgba(0, 0, 0, 0.16);
+}
+
+.barTitle {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  padding: 0px 10px;
+  visibility: hidden;
+}
+
+.barTitleIcon {
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+}
+
+#logo {
+  background-image: url("JŁ!.png");
+}
+
+.barElement {
+  position: fixed;
+  left: 20px;
+  border: 0px;
+  background-color: #00000000;
+  padding: 0px;
+}
+
+.barElementIcon {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+}
+
+#menu {
+  background-image: url("menu.png");
+  position: fixed;
+  bottom: 20px;
+} */
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.clock {
+  font-size: 100px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.searchBox {
+  padding-top: 50px;
+  border-bottom: 2px solid var(--bodyColor);
+  height: 65px;
+}
+
+.searchBar {
+  float: left;
+  width: 600px;
+  margin: 0px;
+  background-color: #00000000;
+  padding-left: 10px;
+}
+
+.searchText {
+  float: left;
+  height: 65px;
+  width: 440px;
+  font-size: 24px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background-color: #00000000;
+  color: var(--bodyColor);
+}
+
+.searchText:focus {
+  outline: none;
+}
+
+.searchSelector {
+  font-family: 'Raleway', sans-serif;
+  height: 65px;
+  width: 150px;
+  font-size: 24px;
+  border: 0px;
+  background-color: #00000000;
+  color: var(--bodyColor);
+}
+
+.searchSelector:focus {
+  outline: none;
+}
+
+.searchSelector option {
+  background-color: var(--bodyBackgroundColor);
+  color: var(--bodyColor);
+}
+
+.searchButton {
+  height: 65px;
+  width: 90px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-size: 24px;
+  background-color: #00000000;
+  color: var(--bodyColor);
+  float: left;
+}
+
+.searchButton:hover {
+  /* background-color: white; */
+}
+
+.lessonOpener {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 50px;
+  font-size: 20px;
+  background-color: #00000000;
+  color: var(--bodyColor);
+  border: none;
+}
