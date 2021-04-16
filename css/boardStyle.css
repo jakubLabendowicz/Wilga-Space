@@ -32,6 +32,7 @@ a {
 .board{
   width: calc(100vw - 900px);
   margin: 0px 370px;
+  position: sticky;
 
   display: grid;
   grid-template-columns: 100px auto;
