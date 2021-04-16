@@ -30,16 +30,19 @@ a {
 
 /* elements */
 .board{
-  width: calc(100vw - 1000px);
-  margin: 0px 420px;
+  width: calc(100vw - 900px);
+  margin: 0px 370px;
 
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100px auto;
   grid-row-gap: 50px;
 
-  padding: 50px;
+  padding: 100px 100px 100px 0px;
 }
 .boardHeader {}
+.boardNav {
+  /* background-color: red; */
+}
 .boardMain {
 }
 
@@ -101,7 +104,9 @@ a {
 .componentSubtitle {
   font-size: 20px;
 }
-.componentMain {}
+.componentMain {
+  /* display: none; */
+}
 .componentFooter {}
 
 .element {
